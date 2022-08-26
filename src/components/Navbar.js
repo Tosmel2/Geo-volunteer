@@ -90,7 +90,7 @@ export default function WithSubnavigation() {
             bg={useColorModeValue('#2B3252', '#FAD744')}
             href={'#'}
             _hover={{
-              bg: 'pink.300',
+              bg: 'gray.600',
             }}>
             Sign Up
           </Button>
