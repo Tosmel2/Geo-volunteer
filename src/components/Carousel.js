@@ -29,8 +29,7 @@ const settings = {
 export default function CaptionCarousel() {
   // As we have used custom buttons, we need a reference variable to
   // change the state
-  // eslint-disable-next-line no-self-compare
-  const [slider, setSlider] = React.useState<Slider | null>(null);
+  const [slider, setSlider] = React.useState(null);
 
   // These are the breakpoints which changes the position of the
   // buttons as the screen size changes
@@ -41,25 +40,25 @@ export default function CaptionCarousel() {
   // This can be static or loaded from a server
   const cards = [
     {
-      title: 'Design Projects 1',
+      title: 'Welcome to Sushi Restaurant',
       text:
-        "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
+        "Our menu offers something for everybody, from excellent client benefit to the best quality fixings.",
       image:
-        'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        'https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
     },
     {
-      title: 'Design Projects 2',
+      title: 'Enjoy Our Delicious Meal',
       text:
-        "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
+        "Aside from hospitality and delicious food, our [restaurateurs'] job is to make you feel special, excited, and fulfilled.",
       image:
-        'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        'https://images.unsplash.com/photo-1438183972690-6d4658e3290e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2274&q=80',
     },
     {
-      title: 'Design Projects 3',
+      title: "A taste you'll remember.",
       text:
-        "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
+        "Being branded number one restaurant in the country is actually very humbling.",
       image:
-        'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        'https://images.unsplash.com/photo-1507237998874-b4d52d1dd655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
     },
   ];
 
@@ -91,7 +90,7 @@ export default function CaptionCarousel() {
         transform={'translate(0%, -50%)'}
         zIndex={2}
         onClick={() => slider?.slickPrev()}>
-        <BiLeftArrowAlt size="40px" />
+        <BiLeftArrowAlt size="30px" />
       </IconButton>
       {/* Right Icon */}
       <IconButton
@@ -103,7 +102,7 @@ export default function CaptionCarousel() {
         transform={'translate(0%, -50%)'}
         zIndex={2}
         onClick={() => slider?.slickNext()}>
-        <BiRightArrowAlt size="40px" />
+        <BiRightArrowAlt size="30px" />
       </IconButton>
       {/* Slider */}
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
@@ -125,10 +124,10 @@ export default function CaptionCarousel() {
                 position="absolute"
                 top="50%"
                 transform="translate(0, -50%)">
-                <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+                <Heading fontSize={{ base: '3xl', md: '4xl', lg: '4rem' }} fontFamily='nunito' fontWeight={700} color='white'>
                   {card.title}
                 </Heading>
-                <Text fontSize={{ base: 'md', lg: 'lg' }} color="GrayText">
+                <Text fontSize={{ base: 'md', lg: 'lg' }} color="white">
                   {card.text}
                 </Text>
               </Stack>

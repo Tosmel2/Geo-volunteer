@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,3 +9,140 @@
     max-width: 95%;
     margin: 0 auto;
 }
+/*** Hero Header ***/
+.home-header {
+    background: rgba(15, 23, 43, 0.9);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*** Services Rendered ***/
+  /*#F3721B*/
+.services{
+    padding: 3rem 2.2rem 5rem 2.2rem;
+    text-align: center;
+  }
+  .services h1{
+    font-size: 2rem;
+    color: #EF5455;
+    padding: 3rem 0 0.5rem 0;
+  }
+  .services p{
+    font-size: 1rem;
+  }
+  .topRendered{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .renderSize {
+    width: 23%;
+    padding: 2.5rem 1rem;
+    box-shadow: 2px 3px 13px -2px rgba(36, 35, 35, 0.75);
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+  }
+  /* .spaceup{
+    padding: 3.5rem 0;
+  } */
+  /* .renderSize:hover{
+    background: #F3721B;
+  } */
+  .renderSize h2{
+    padding: 0.3rem;
+    font-weight: 400;
+  }
+  .TeamContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .TeamContainer h1{
+    font-size: 2rem;
+    color: #EF5455;
+    padding: 1.5rem;
+  }
+  .team{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .team h1{
+    font-size: 2rem;
+    color: #EF5455;
+    font-weight: 400;
+  }
+  .chef-image{
+    height: 200px;
+    width: 210px;
+    border-radius: 50%;
+  }
+  .chefTeam{
+    width: 23%;
+    padding: 2.5rem;
+    /* border: 1px solid #ffffff; */
+    border-radius: 10px;
+  }
+  .chefTeam h2, p{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  /* Social icon */
+  .cols-icon{
+    padding: 0.3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-icon{
+    /* color: #F3721B; */
+    color: #EF5455;
+    font-size: 1.8rem;
+    border:2px solid #EF5455;
+    padding: 0.3rem;
+    border-radius: 50%;
+    margin: 2px;
+  }
+
+
+
+  @media screen and (max-width: 900px) {
+    .services{
+      padding: 1em;
+    }
+    .services h1{
+      font-size: 2rem;
+      padding: 2rem 0 0.5rem 0;
+    }
+    .topRendered{
+      flex-direction: column;
+    }
+    .renderSize {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 0.7em;
+    }
+    .services h1{
+      text-align: center;
+    }
+    .services p{
+      padding-bottom: 2rem;
+    }
+    .renderSize h2, p{
+      padding-bottom: 0.7rem;
+    }
+    .chefTeam{
+        width: 100%;
+        padding: 2rem 5rem;
+        margin-bottom: 0.7em;
+        border:1px solid #EF5455;
+      }
+    .team{
+        flex-direction: column;
+    }
+  }
