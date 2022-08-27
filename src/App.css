@@ -10,23 +10,26 @@
     margin: 0 auto;
 }
 /*** Hero Header ***/
-.home-header {
-    background: rgba(15, 23, 43, 0.9);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+/* .home-header {
+  position: absolute;
+  background: rgba(94, 17, 3, 0.9);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  } */
 
   /*** Services Rendered ***/
   /*#F3721B*/
 .services{
     padding: 3rem 2.2rem 5rem 2.2rem;
     text-align: center;
+    background: #F6F8FE;
   }
   .services h1{
     font-size: 2rem;
     color: #EF5455;
-    padding: 3rem 0 0.5rem 0;
+    padding: 2rem 0 1rem 0;
+    font-weight: bold;
   }
   .services p{
     font-size: 1rem;
@@ -51,7 +54,7 @@
   } */
   .renderSize h2{
     padding: 0.3rem;
-    font-weight: 400;
+    font-weight: bold;
   }
   .TeamContainer{
     display: flex;
@@ -64,26 +67,27 @@
     font-size: 2rem;
     color: #EF5455;
     padding: 1.5rem;
+    font-weight: bold;
   }
   .team{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
   }
   .team h1{
     font-size: 2rem;
     color: #EF5455;
-    font-weight: 400;
+    font-weight: bold;
   }
   .chef-image{
-    height: 200px;
-    width: 210px;
+    height: 230px;
+    width: 230px;
     border-radius: 50%;
   }
   .chefTeam{
     width: 23%;
-    padding: 2.5rem;
-    /* border: 1px solid #ffffff; */
+    padding: 1.8rem;
+    /* border: 1px solid #0000ff; */
     border-radius: 10px;
   }
   .chefTeam h2, p{
@@ -109,7 +113,61 @@
     margin: 2px;
   }
 
+.hero{
+  background: url('../src/assets/homebg.png') no-repeat center center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+}
+
+/* About us section */
+.aboutus{
+  display: flex;
+  padding: 1rem 0;
+}
+.right-aboutus{
+  padding: 1.3rem;
+  width: 50%;
+}
+.right-aboutus h1{
+  padding: 10px;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.right-aboutus p{
+  padding: 8px;
+  font-size: 1.1rem;
+  text-align: left;
+}
+.abtheading{
+    font-size: 2rem;
+    color: #EF5455;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3rem;
+}
+.left-aboutus{
+  padding: 1.8rem;
+  width: 50%;
+}
+
+
+/* button props */
+.buttonbox{
+  padding: 0.8rem 1rem;
+  background: #F3721B;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: bold;
+  /* margin-top: 1rem; */
+  /* position: absolute; */
+}
 
   @media screen and (max-width: 900px) {
     .services{
@@ -145,4 +203,20 @@
     .team{
         flex-direction: column;
     }
+    .aboutus{
+      flex-direction: column;
+      height: 1200px;
+      border: 2px solid#EF5455;
+    }
+    .left-aboutus{
+      width: 100%;
+      /* display: none; */
+
+    }
+    .right-aboutus{
+      width: 100%;
+    }
+    /* .gridy{
+      width: 100%;
+    } */
   }

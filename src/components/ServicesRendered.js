@@ -8,8 +8,7 @@ const ServicesRendered = ({myImage, text, smallText}) => {
     <div className="renderSize" bg={useColorModeValue('gray.100', '#2B3252')}>
       <img src={myImage} alt='mine' />
       <h2 style={{fontWeight:'bold', fontSize:'1.2rem'}}>{text}</h2>
-      <p>{smallText}
-      </p>
+      <p style={{color:'#000000'}}>{smallText}</p>
     </div>
   )
 }

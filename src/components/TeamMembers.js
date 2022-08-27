@@ -8,7 +8,7 @@ import Team4 from '../../src/assets/Team4.png';
 const TeamMembers = () => {
   return (
     <div className="TeamContainer" >
-      <h1>Meet Our Chief Chefs</h1>
+      <h1>Meet Our Chefs</h1>
       <div className='team'>
         <TeamRendered chefImage={Team1} hText={'Oyindamola T.'} pText={'Captain Chef'} />
         <TeamRendered chefImage={Team2} hText={'Full Name'} pText={'Chef'} />

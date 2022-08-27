@@ -23,6 +23,7 @@ import {
   ChevronRightIcon,
 } from '@chakra-ui/icons';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
+// import ButtonBox from './ButtonBox';
 
 export default function WithSubnavigation() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -77,10 +78,10 @@ export default function WithSubnavigation() {
           <Button
             as={'a'}
             fontSize={'md'}
-            fontWeight={600}
+            fontWeight={500}
             variant={'link'}
             href={'#'}>
-            Sign In
+            SIGN UP
           </Button>
           <Button
             display={{ base: 'none', md: 'inline-flex' }}
@@ -92,7 +93,7 @@ export default function WithSubnavigation() {
             _hover={{
               bg: 'gray.600',
             }}>
-            Sign Up
+            BOOK A TABLE
           </Button>
         </Stack>
       </Flex>
@@ -254,38 +255,26 @@ const NAV_ITEMS = [
   {
     label: 'HOME',
     href: '/',
-    children: [
-      {
-        label: 'Explore Design Work',
-        subLabel: 'Trending Design to inspire you',
-        href: '#',
-      },
-      {
-        label: 'New & Noteworthy',
-        subLabel: 'Up-and-coming Designers',
-        href: '#',
-      },
-    ],
   },
   {
     label: 'ABOUT',
-    href: '#',
+    href: '/about',
+    children: [
+      {
+        label: 'Low cost. High quality.',
+        subLabel: 'Food that tells a story.',
+        href: '#',
+      },
+      {
+        label: 'Where every flavor tells a story.',
+        subLabel: 'Creativity is always on our menu.',
+        href: '#',
+      },
+    ],
   },
   {
     label: 'MENU LIST',
     href: '/menu',
-    children: [
-      {
-        label: 'Job Board',
-        subLabel: 'Find your dream design job',
-        href: '#',
-      },
-      {
-        label: 'Freelance Projects',
-        subLabel: 'An exclusive list for contract work',
-        href: '#',
-      },
-    ],
   },
   {
     label: 'CART',
@@ -293,6 +282,6 @@ const NAV_ITEMS = [
   },
   {
     label: 'CONTACT US',
-    href: '#',
+    href: '/#contact',
   },
 ];
