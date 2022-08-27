@@ -8,7 +8,7 @@ const AboutUs = () => {
       <h1 className='abtheading'>About Us</h1>
       <div className='aboutus'>
         <div className='left-aboutus'>
-          <img src={homeus} alt='aboutus' style={{height:'90%', width:'90%', borderRadius:'10%'}}/>
+          <img src={homeus} alt='aboutus' style={{height:'80%', width:'100%', borderRadius:'10%'}}/>
         {/* <Grid
           h='550px'
           w={750}
