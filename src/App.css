@@ -206,7 +206,6 @@
     .aboutus{
       flex-direction: column;
       height: 1200px;
-      border: 2px solid#EF5455;
     }
     .left-aboutus{
       width: 100%;
