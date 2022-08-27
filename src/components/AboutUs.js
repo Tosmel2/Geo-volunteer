@@ -24,7 +24,7 @@ const AboutUs = () => {
         </Grid> */}
         </div>
         <div className='right-aboutus'>
-          <h1>Sushi Food's story</h1>
+          <h1><i class="fas fa-utensils" style={{fontSize:'2rem', color:'#EF5455'}}></i> Sushi Food's story</h1>
           <p>CEO, Adewale Tosin, opened the first Sushi Foods Restaurant in Lagos on January 27, 2022. Today, 
             there are 7 branches all over West Africa. Sushi Foods Restaurants are well known with a
             substantial gathering of people including families, kids, seniors, and business experts.
