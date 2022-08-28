@@ -24,7 +24,7 @@ const AboutUs = () => {
         </Grid> */}
         </div>
         <div className='right-aboutus'>
-          <h1><i class="fas fa-utensils" style={{fontSize:'2rem', color:'#EF5455'}}></i> Sushi Food's story</h1>
+          <h1 style={{color:'#000000'}}><i class="fas fa-utensils" style={{fontSize:'2rem', color:'#EF5455'}}></i> Sushi Food's story</h1>
           <p style={{color:'#000000'}}>CEO, Adewale Tosin, opened the first Sushi Foods Restaurant in Lagos on January 27, 2022. Today, 
             there are 7 branches all over West Africa. Sushi Foods Restaurants are well known with a
             substantial gathering of people including families, kids, seniors, and business experts.
@@ -32,7 +32,7 @@ const AboutUs = () => {
             or assembling for a flavorful dinner with loved ones. Open day by day for lunch and dinner,
             Sushi Foods offers a choice of naturally arranged things utilizing just the best fixings accessible.
           </p>
-          <p>Our top picks incorporate crisp fish, rotisserie chicken, infant back pork ribs. New prepared pot pie,
+          <p style={{color:'#000000'}}>Our top picks incorporate crisp fish, rotisserie chicken, infant back pork ribs. New prepared pot pie,
             strength plates of mixed greens, wood-let go pizzas, pasta, sandwiches, burgers, and more. Sushi Food's 
             heated merchandise and treats including our Six-Layer Chocolate Motherlode Cake, Scratch Carrot Cake, and
             delectably rich cream cheddar pies are prevalent top choices with our visitors.

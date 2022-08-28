@@ -82,9 +82,6 @@ export default function LargeWithNewsletter() {
               <h1 style={{fontWeight:'bold'}}>SUSHI FOOD</h1>
               {/* <Logo color={useColorModeValue('gray.700', 'white')} /> */}
             </Box>
-            <Text fontSize={'sm'}>
-              © 2022 Sushi Foods. All rights reserved
-            </Text>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'#'}>
                 <FaTwitter />
@@ -134,6 +131,9 @@ export default function LargeWithNewsletter() {
                 icon={<BiMailSend />}
               />
             </Stack>
+            <Text fontSize={'sm'}>
+            © 2022 Sushi Foods. All rights reserved
+          </Text>
           </Stack>
         </SimpleGrid>
       </Container>

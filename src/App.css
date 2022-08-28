@@ -216,7 +216,14 @@
     .right-aboutus{
       width: 100%;
     }
-    /* .gridy{
-      width: 100%;
-    } */
+    .CartWrapper{
+      flex-direction: column;
+      height: 85vh !important;
+    }
+    .leftcart{
+      width: 100% !important;
+    }
+    .rightcart{
+      width: 100% !important;
+    }
   }
