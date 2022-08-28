@@ -4,7 +4,7 @@ import homeus from '../../src/assets/homeus.jpg';
 
 const AboutUs = () => {
   return (
-    <div>
+    <div style={{backgroundColor:'#F6F8FE'}}>
       <h1 className='abtheading'>About Us</h1>
       <div className='aboutus'>
         <div className='left-aboutus'>

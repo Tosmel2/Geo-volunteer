@@ -61,7 +61,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
   .TeamContainer h1{
     font-size: 2rem;
@@ -127,11 +127,12 @@
 
 /* About us section */
 .aboutus{
+  /* background: #F6F8FE; */
   display: flex;
   padding: 1rem 0;
 }
 .right-aboutus{
-  padding: 1.3rem;
+  padding: 1rem;
   width: 50%;
 }
 .right-aboutus h1{
@@ -152,7 +153,7 @@
     padding-top: 3rem;
 }
 .left-aboutus{
-  padding: 1.8rem;
+  padding: 1rem 1.8rem;
   width: 50%;
 }
 

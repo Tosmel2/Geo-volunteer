@@ -254,11 +254,11 @@ const MobileNavItem = ({ label, children, href }) => {
 const NAV_ITEMS = [
   {
     label: 'HOME',
-    href: '/',
+    href: 'https://sushi-food.netlify.app/',
   },
   {
     label: 'ABOUT',
-    href: '/about',
+    href: 'https://sushi-food.netlify.app/about',
     children: [
       {
         label: 'Low cost. High quality.',
@@ -273,12 +273,12 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'MENU LIST',
-    href: '/menu',
+    label: 'MENU',
+    href: 'https://sushi-food.netlify.app/menu',
   },
   {
     label: 'CART',
-    href: '/cart',
+    href: 'https://sushi-food.netlify.app/cart',
   },
   {
     label: 'CONTACT US',
