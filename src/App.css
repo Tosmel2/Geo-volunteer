@@ -218,7 +218,8 @@
     }
     .CartWrapper{
       flex-direction: column;
-      height: 85vh !important;
+      height: 82vh !important;
+      padding: 0 !important;
     }
     .leftcart{
       width: 100% !important;

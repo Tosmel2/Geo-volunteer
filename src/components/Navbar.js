@@ -81,7 +81,7 @@ export default function WithSubnavigation() {
             fontWeight={500}
             variant={'link'}
             href={'#'}>
-            SIGN UP
+            SIGN IN
           </Button>
           <Button
             display={{ base: 'none', md: 'inline-flex' }}
@@ -89,7 +89,7 @@ export default function WithSubnavigation() {
             fontWeight={600}
             color={'white'}
             bg={useColorModeValue('#2B3252', '#FAD744')}
-            href={'#'}
+            href={'#contact'}
             _hover={{
               bg: 'gray.600',
             }}>
