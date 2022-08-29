@@ -32,7 +32,7 @@ export default function WithSubnavigation() {
   return (
     <Box bg={useColorModeValue('gray.100', 'gray.900')} >
       <Flex
-        bg={useColorModeValue('#EF5455', '#2B3252')}
+        bg={useColorModeValue('#1DB954', '#2B3252')}
         color={useColorModeValue('#2B3252', 'white')}
         minH={'60px'}
         py={{ base: 2 }}
@@ -59,7 +59,7 @@ export default function WithSubnavigation() {
             textAlign={useBreakpointValue({ base: 'center', md: 'center' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
-            SUSHIFOOD
+            GEO VOLUNTEER
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={2}>
@@ -93,7 +93,7 @@ export default function WithSubnavigation() {
             _hover={{
               bg: 'gray.600',
             }}>
-            BOOK A TABLE
+            VOLUNTEER
           </Button>
         </Stack>
       </Flex>
@@ -273,11 +273,11 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'MENU',
+    label: 'GALLERY',
     href: '/menu',
   },
   {
-    label: 'CART',
+    label: 'VOLUNTEER',
     href: '/cart',
   },
   {

@@ -42,25 +42,25 @@ export default function CaptionCarousel() {
   // This can be static or loaded from a server
   const cards = [
     {
-      title: 'Welcome to Sushi Restaurant',
+      title: 'Welcome to Geo Volunteer',
       text:
-        "Our menu offers something for everybody, from excellent client benefit to the best quality fixings.",
+        "The early days of GIS were very lonely.",
       image:
-      'https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+      'https://media.istockphoto.com/photos/map-of-urban-city-area-with-coloured-geospatial-data-for-gis-usage-picture-id1337105602?k=20&m=1337105602&s=612x612&w=0&h=4AyNJTQjwXZy8fvU3JtDB3krWLEmaaQsxN61Ab-kwbY=',
     },
     {
-      title: 'Enjoy Our Delicious Meal',
+      title: 'GIS is a form of digital mapping technology.',
       text:
-        "Aside from hospitality and delicious food, our [restaurateurs'] job is to make you feel special, excited, and fulfilled.",
+        "GIS is waking up the world to the power of geography, this science of integration, and has the framework for creating a better future.",
       image:
-        'https://images.unsplash.com/photo-1559329007-40df8a9345d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        'https://media.istockphoto.com/photos/russia-3d-render-topographic-map-color-border-picture-id1355609823?k=20&m=1355609823&s=612x612&w=0&h=5-PX5dcUk5HOS_AtHqSG0AACaapK_tOTEWe4Tb18faY=',
     },
     {
-      title: "A taste you'll remember.",
+      title: "Welcome to Geo Volunteer'",
       text:
-        "Being branded number one restaurant in the country is actually very humbling.",
+        "The drawing of a parallel between cartography and architecture is instructive.",
       image:
-        'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        'https://media.istockphoto.com/photos/surveying-picture-id479267933?k=20&m=479267933&s=612x612&w=0&h=4ONjWBoAqi0TYO9WvPwJ0YBauYBM_TWDsegf4BO7quY=',
     },
   ];
   
